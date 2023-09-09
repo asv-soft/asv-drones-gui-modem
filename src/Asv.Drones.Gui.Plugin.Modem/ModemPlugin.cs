@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.Composition;
 using Asv.Drones.Gui.Core;
 
-namespace Asv.Drones.Gui.Modem;
+namespace Asv.Drones.Gui.Plugin.Modem;
 
 [PluginEntryPoint("Modem", CorePlugin.Name)]
 [PartCreationPolicy(CreationPolicy.NonShared)]

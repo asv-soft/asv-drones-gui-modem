@@ -4,7 +4,7 @@ using Avalonia.Input;
 using Material.Icons;
 using ReactiveUI;
 
-namespace Asv.Drones.Gui.Modem;
+namespace Asv.Drones.Gui.Plugin.Modem;
 
 [Export(HeaderMenuItem.UriString + "/tools", typeof(IHeaderMenuItem))]
 [PartCreationPolicy(CreationPolicy.NonShared)]
