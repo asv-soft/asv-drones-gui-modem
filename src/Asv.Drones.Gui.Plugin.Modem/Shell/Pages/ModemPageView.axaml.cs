@@ -5,7 +5,7 @@ using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 using Avalonia.ReactiveUI;
 
-namespace Asv.Drones.Gui.Modem;
+namespace Asv.Drones.Gui.Plugin.Modem;
 
 [ExportView(typeof(ModemPageViewModel))]
 [PartCreationPolicy(CreationPolicy.NonShared)]

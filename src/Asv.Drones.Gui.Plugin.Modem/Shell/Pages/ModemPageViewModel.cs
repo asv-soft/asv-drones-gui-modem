@@ -14,7 +14,7 @@ using ReactiveUI;
 using ReactiveUI.Fody.Helpers;
 using SkiaSharp;
 
-namespace Asv.Drones.Gui.Modem;
+namespace Asv.Drones.Gui.Plugin.Modem;
 
 [ExportShellPage(UriString)]
 [PartCreationPolicy(CreationPolicy.NonShared)]
