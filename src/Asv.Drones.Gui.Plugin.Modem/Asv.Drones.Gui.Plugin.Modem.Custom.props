@@ -1,6 +1,6 @@
 ﻿<Project>
     <ItemGroup>
-        <ProjectReference Condition="'$(ProjectName)' == 'Asv.Drones.Gui.Plugin.Modem'" Include="$(SolutionDir)$(SolutionName)\$(SolutionName).csproj" >
+        <ProjectReference Condition="'$(ProjectName)' == 'Asv.Drones.Gui'" Include="$(SolutionDir)$(SolutionName)\$(SolutionName).csproj" >
         </ProjectReference>
     </ItemGroup>
     <PropertyGroup>
