@@ -1,0 +1,9 @@
+﻿<Project>
+    <ItemGroup>
+        <ProjectReference Condition="'$(ProjectName)' == 'Asv.Drones.Gui'" Include="$(SolutionDir)$(SolutionName)\$(SolutionName).csproj" >
+        </ProjectReference>
+    </ItemGroup>
+    <PropertyGroup>
+    <PluginVersion>0.1.0</PluginVersion>
+    </PropertyGroup>
+</Project>
